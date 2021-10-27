@@ -1,5 +1,6 @@
 radio.onReceivedString(function (receivedString) {
     if (receivedString == "PEACH") {
+        basic.showString("PEACH")
         if (PEACH == true) {
             PEACH = false
         } else if (PEACH == false) {
@@ -7,6 +8,7 @@ radio.onReceivedString(function (receivedString) {
         }
     }
     if (receivedString == "MANGO") {
+        basic.showString("MANGO")
         if (MANGO == true) {
             MANGO = false
         } else if (MANGO == false) {
