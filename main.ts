@@ -20,3 +20,4 @@ let MANGO = false
 let PEACH = false
 basic.showIcon(IconNames.Yes)
 radio.setGroup(69)
+servos.P0.setAngle(90)
